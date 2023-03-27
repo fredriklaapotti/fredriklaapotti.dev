@@ -7,7 +7,7 @@ async function fetchMarkdownPosts() {
     const allPosts = await Promise.all(
         iterablePostFiles.map(async ([path, resolver]) => {
             const { metadata }: any = await resolver();
-            const postPath = path.slice(11, -3);
+            const postPath: string = path.slice(11, -3);
             return {
                 meta: metadata,
                 path: postPath,
@@ -21,6 +21,5 @@ async function fetchMarkdownPosts() {
 /** @type {import('./$types').RequestHandler} */
 export async function GET({ url }) {
     const allPosts = await fetchMarkdownPosts();
-    //return new Response(String(allPosts));
     return json(allPosts);
 }

@@ -1,5 +1,6 @@
 <script>
     import Blogpost from '$lib/components/Blogpost.svelte';
+
     /** @type {import('./$types').PageData} */
     export let data;
 </script>
@@ -13,8 +14,8 @@ Blog
 </div>
 
 <div class="body-text">
-    {#each Object.values(data.md_posts) as post}
-    <Blogpost data={post} />
+    {#each Object.values(data.posts) as post}
+        <Blogpost data={post} />
     {/each}
 </div>
 

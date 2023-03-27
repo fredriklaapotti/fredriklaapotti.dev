@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-    <meta name="description" content="Most often right. If not, mostly usefully wrong."/>
+    <meta name="description" content="Mostly right, if not, usefully wrong."/>
 </svelte:head>
 
 <Header />

@@ -1,6 +1,4 @@
 <script>
-    import { dataset_dev } from "svelte/internal";
-
     /** @type {any} */
      export let data;
 </script>
