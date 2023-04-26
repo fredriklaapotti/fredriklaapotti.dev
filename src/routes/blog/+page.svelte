@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="body-text">
-Blog
+    <h1>Blog</h1>
 </div>
 
 <div class="body-text">

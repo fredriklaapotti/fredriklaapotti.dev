@@ -8,7 +8,8 @@
 </svelte:head>
 
 <div class="body-text">
-Projects
+    <h1>Projects</h1>
+    <p>To be implemented</p>
 </div>
 
 <style>

@@ -1,9 +1,18 @@
-<div id="footer">Footer</div>
+<div id="footer">Made in <a href="https://kit.svelte.dev/">SvelteKit</a>.</div>
 
 <style>
     #footer {
-        background-color: #a4c974;
-        font-size: 2em;
+        color: #e6e6e6;
+        font-size: 0.9rem;
         text-align: center;
+        margin-top: 50px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
 </style>

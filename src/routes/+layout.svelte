@@ -13,9 +13,23 @@
 
 <style>
     :global(body) {
-        background-color: #f2eaea;
-        width: 50%;
+        background-color: #181818;
+        width: 58%;
         margin: auto;
         font-family: sans-serif;
+    }
+
+    :global(.container) {
+        font-size: 18px;
+        color: #e6e6e6;
+    }
+
+    :global(.body-text) {
+        font-size: 18px;
+        color: #e6e6e6;
+    }
+
+    :global(a:visited) {
+        color: inherit;
     }
 </style>
