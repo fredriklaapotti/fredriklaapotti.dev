@@ -10,7 +10,6 @@
     }
 
     a {
-        @apply anchor;
         text-decoration: none;
     }
 
