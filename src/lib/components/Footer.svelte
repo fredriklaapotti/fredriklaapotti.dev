@@ -1,18 +1,17 @@
-<div id="footer">Made in <a href="https://kit.svelte.dev/">SvelteKit</a>.</div>
+<div id="footer">
+    <p>Made in <a href="https://kit.svelte.dev/">SvelteKit</a> using <a href="https://code.visualstudio.com/">VS Code</a> and hosted on <a href="https://vercel.com/">Vercel</a>.</p>
+</div>
 
 <style>
+    
     #footer {
-        color: #e6e6e6;
-        font-size: 0.9rem;
         text-align: center;
         margin-top: 50px;
     }
 
     a {
+        @apply anchor;
         text-decoration: none;
     }
 
-    a:hover {
-        text-decoration: underline;
-    }
 </style>

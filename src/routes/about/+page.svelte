@@ -1,5 +1,5 @@
 <script>
-    /** @type {import('../me/$types').PageData} */
+    /** @type {import('../about/$types').PageData} */
     //export let data;
 </script>
 
@@ -10,12 +10,12 @@
 <div class="body-text">
     <h1>About me</h1>
     <p>
-        I'm a father, husband, pet owner and avid reader, living in Sweden. A personal goal is to not define nor present myself based on profession, education or title.
-        Computers and software are part interest and part work in my life, and has been an interest since my father made a nerd with an Amiga 500.
+        Father, husband, dog owner and avid reader, living in Sweden. A personal goal is to not define nor present myself based on profession, education or title.
+        Computers and software are part interest and part work in my life, and has been an interest since my father made me a nerd with an Amiga 500.
         <br/><br/>
         This site is where I collect, organize and present various ideas and projects relevant to me. I hope to offer useful knowledge without even asking for a cookie in return. No, really: although the site is built with SvelteKit, I'm keeping it lean and simple. Think of it like an homage to the web of old.
         <br/><br/>
-        You can find my extrovert, self-promoting stuff from the usual suspects, listed in order of activity:
+        You can find my self-promoting stuff from the usual suspects, listed in order of activity:
     </p>
     <ul>
         <li><a href="https://www.linkedin.com/in/fredriklaapotti/">LinkedIn</a></li>

@@ -1,10 +1,17 @@
 <script>
-    import Header from "$lib/components/Header.svelte"
-    import Footer from "$lib/components/Footer.svelte"
+  // Your selected Skeleton theme:
+  import '@skeletonlabs/skeleton/themes/theme-gold-nouveau.css';
+  // This contains the bulk of Skeletons required styles:
+  import '@skeletonlabs/skeleton/styles/skeleton.css';
+  // Finally, your application's global stylesheet (sometimes labeled 'app.css')
+  import "../app.postcss";
+
+  import Header from "$lib/components/Header.svelte";
+  import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <svelte:head>
-    <meta name="description" content="Mostly right, if not, usefully wrong."/>
+  <meta name="description" content="Mostly right, if not, usefully wrong." />
 </svelte:head>
 
 <Header />
@@ -12,24 +19,13 @@
 <Footer />
 
 <style>
-    :global(body) {
-        background-color: #181818;
-        width: 58%;
-        margin: auto;
-        font-family: sans-serif;
-    }
+  :global(html) {
+    -webkit-tap-highlight-color: rgba(128, 128, 128, 0.5);
+  }
 
-    :global(.container) {
-        font-size: 18px;
-        color: #e6e6e6;
-    }
-
-    :global(.body-text) {
-        font-size: 18px;
-        color: #e6e6e6;
-    }
-
-    :global(a:visited) {
-        color: inherit;
-    }
+  :global(body) {
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+  }
 </style>
